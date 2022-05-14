@@ -3,11 +3,11 @@ Un proyecto para la resolución de una problemática oceánica
 
 | Integrantes | Rol | Link a los Gtihub |
 | ------------- |:-------------:| -----:|
-|`Alexis Aparicio`|FrontEnd - Backend|[Contacto](https://github.com/Alexis96-2)|
-|`Luis Angel Baez`|FrontEnd - Backend|[Contacto](https://github.com/LuisBaezN)|
-|`Diego Rafael Moctezuma`|FrontEnd - Backend|[Contacto](https://github.com/DiegoMoctezuma)|
-|`Juan Pablo Pech`|FrontEnd - Backend|[Contacto](https://github.com/JPabloPQ)|
-|`Azael Barbosa`|FrontEnd - Backend|[Contacto](https://github.com/AzaelBarbosa)|
+|`Alexis Aparicio`|FullStack|[Contacto](https://github.com/Alexis96-2)|
+|`Luis Angel Baez`|FullStack|[Contacto](https://github.com/LuisBaezN)|
+|`Diego Rafael Moctezuma`|FullStack|[Contacto](https://github.com/DiegoMoctezuma)|
+|`Juan Pablo Pech`|FullStack|[Contacto](https://github.com/JPabloPQ)|
+|`Azael Barbosa`|FullStack|[Contacto](https://github.com/AzaelBarbosa)|
 
 ### Pesca Ilegal en Zonas Protegidas
 
