@@ -34,3 +34,21 @@ graph TD;
 - Html
 
 > API considerada a usar: [Señala con Google Maps](https://www.cursosgis.com/como-crear-geometrias-con-la-api-javascript-de-google-maps/)
+
+### Explicación de la problemática
+
+Aquí va una explicación de la situación.
+
+### Solución planteada
+
+Aquí va una explicación de la solución tomada de acuerdo a la problemática.
+
+### Dudas sobre codigos
+
+```JavaScript
+//Aquí codigos clave que requerimos investigar 1
+```
+
+```JavaScript
+//Aquí codigos clave que requerimos investigar 2
+```
