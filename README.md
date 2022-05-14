@@ -27,3 +27,5 @@ graph TD;
     A --> v1/soluciones/SensoresVigilancia;
     A --> v1/soluciones/SensoresBardas;
 ```
+
+> API considerada a usar: [Señala con Google Maps](https://www.cursosgis.com/como-crear-geometrias-con-la-api-javascript-de-google-maps/)
