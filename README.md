@@ -9,7 +9,7 @@ Un proyecto para la resolución de una problemática oceánica
 |`Juan Pablo Pech`|FullStack|[Contacto](https://github.com/JPabloPQ)|
 |`Azael Barbosa`|FullStack|[Contacto](https://github.com/AzaelBarbosa)|
 
-### Pesca Ilegal en Zonas Protegidas
+## Pesca Ilegal en Zonas Protegidas
 
 ```mermaid
 graph TD;
@@ -27,5 +27,10 @@ graph TD;
     A --> v1/soluciones/SensoresVigilancia;
     A --> v1/soluciones/SensoresBardas;
 ```
+### Tecnologías a usar
+
+- CSS
+- JavaScript
+- Html
 
 > API considerada a usar: [Señala con Google Maps](https://www.cursosgis.com/como-crear-geometrias-con-la-api-javascript-de-google-maps/)
