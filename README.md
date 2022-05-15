@@ -63,8 +63,8 @@ Fish Savior es un sistema de monitoreo y respuesta ante la pesca ilegal dentro d
 
 Una patrulla consta de:
 - Barco (1)
-- Lanchas (3+)
-- Drones (3+)
+- Lanchas (3 o más)
+- Drones (3 o más)
 
 Procedimiento:
 - Destino generado aleatoriamente
@@ -77,7 +77,11 @@ Procedimiento:
 
 #### Alcance
 
-En este proyecto se considera que el uso de drones y transmisión de información de lanchas a barco puede ser un problema, por lo que este pude ser un elemento que se puede escalar, por lo que se tomará a un solo barco como agente de monitoreo, respuesta, registro y análisis.
+En este proyecto se considera que el uso de drones y transmisión de información de lanchas a barco puede ser un problema, por lo que este pude ser un elemento que se puede escalar, así que se tomará un solo barco como agente de monitoreo, respuesta, registro y análisis.
+
+El análisis del presupuesto, que incluye gastos operativos y de mantenimiento no se incluye por la falta de un experto en el área que pueda orientarnos de las diversas variables, como combustible, operadores, cuerpo de seguridad, etc.
+
+Aunque ya exiten muchos trabajos enfocados en la detección de barcos con el uso de deep learning, el trabajo realizado por Yu Guo, Yuxu Lu y Ryan Wen Liu en su artículo titulado "Lightweight deep network-enabled real-time low-visibility enhancement for promoting vessel detection in maritime video surveillance" ofrece resultados y procesamiento viables para un sistema como el que se propone en este proyecto, sin embargo, la red neuronal se probó en una tarjeta gráfica NVIDIA RTX 2080Ti dando respuesta de procesamiento y detección de 0.0045 segundos en una imagen de 1920x1080 que, aunque da una respuesta para una aplicación en tiempo real, esta puede ser reemplazada por un sistema embebido, como una Jetson Nano, para reducir costos y, por el protocolo de operación descrito, aunque tenga un tiempo de respuesta menor, no será un obstáculo. Por esto, solo se ha replicado el experimeto usando una GTX 1660 super para visualizar el tiempo de respuesta y los resultados con diferentes imágenes, y verificar el tamaño del estado latente.
 
 > API considerada a usar desde el principio: [Señala con Google Maps](https://www.cursosgis.com/como-crear-geometrias-con-la-api-javascript-de-google-maps/)
 
