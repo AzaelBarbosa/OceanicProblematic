@@ -26,22 +26,6 @@ graph TD;
     A --> v1/soluciones/SensoresVigilancia;
     A --> v1/soluciones/SensoresBardas;
 ```
-### Tecnologías a usar
-
-- API
-- CSS
-- JavaScript
-- Html
-
-> API para mapeo: [Mapa leaflet](https://leafletjs.com/examples/quick-start/) <br> Herramientas de servidor: [Azure Tools](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice)
-
-> Dependencias: <br> npm install jest@26.0.0 --save <br> npm install express --save
-
-### Herramientas
-
-- Visual Studio Code
-
-> Extensiones: [VSCODE - Azure](https://code.visualstudio.com/docs/azure/extensions)
 
 ### Explicación de la problemática
 
@@ -85,6 +69,23 @@ Aunque ya exiten muchos trabajos enfocados en la detección de barcos con el uso
 Todo lo descrito anteriormente corresponde a la etapa de procesamiento de imagen, queda por implementarlo junto a una red YOLO. Dentro del trabajo de Zhenfeng Shao et al, titulado "SeaShips: A Large-Scale Precisely Annotated Dataset for Ship Detection" se provó la segunda versión de esta red para detectar embarcaciones, sin embaro, ya existe una cuarta vesión de esta red.
 
 > API considerada a usar desde el principio: [Señala con Google Maps](https://www.cursosgis.com/como-crear-geometrias-con-la-api-javascript-de-google-maps/)
+
+### Tecnologías a usar
+
+- API
+- CSS
+- JavaScript
+- Html
+
+> API para mapeo: [Mapa leaflet](https://leafletjs.com/examples/quick-start/) <br> Herramientas de servidor: [Azure Tools](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice)
+
+> Dependencias: <br> npm install jest@26.0.0 --save <br> npm install express --save
+
+### Herramientas
+
+- Visual Studio Code
+
+> Extensiones: [VSCODE - Azure](https://code.visualstudio.com/docs/azure/extensions)
 
 ## Resultados
 
