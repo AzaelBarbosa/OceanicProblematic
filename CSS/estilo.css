@@ -4,12 +4,13 @@ background-color: white;
 }
 .header{
     position: fixed;
-    height: 3.2rem;
+    z-index: 1;
+    height: 3rem;
     left: 0;
     top: 0;
     right: 0;
     padding: 15px 20px;
-    background-color: black;
+    background-color: rgb(27, 27, 27);
     display:flex;
     justify-content: space-between;/* Logra gracias a flex, uno a la izquierda y otro a la derecha*/
     align-items: center;
@@ -38,7 +39,8 @@ background-color: white;
     list-style: none;
  }
 .menu ul li{
-     display: inline-block;
+    margin:5px;
+    display: inline-block;
  }
 
 .olaje{
@@ -50,10 +52,10 @@ background-color: white;
 
 .border-logo{
     color:white;
-    text-shadow: -1px -1px 0 black,
-    1px -1px 0 black,
-    1px 1px 0 black,
-    -1px 1px 0 black;
+    text-shadow: -1px -1px 0 rgb(27, 27, 27),
+    1px -1px 0 rgb(27, 27, 27),
+    1px 1px 0 rgb(27, 27, 27),
+    -1px 1px 0 rgb(27, 27, 27);
 }
 .wave-logo{
     color:#09f;
@@ -90,8 +92,19 @@ background-color: white;
 }
 
 main{
+    margin-top: 4rem;
     height: 100%;
-    overflow: auto;
-    padding: 0% 1% 0% 1%;
-    width: 98%;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+.container{
+    width: 90%;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#map { 
+    height: 480px;
 }

@@ -39,6 +39,8 @@ graph TD;
 
 Aquí va una explicación de la situación.
 
+> Fuentes: https://thehumaneleague.org/article/fishing-industry
+
 ### Solución planteada
 
 Aquí va una explicación de la solución tomada de acuerdo a la problemática.
@@ -52,3 +54,12 @@ Aquí va una explicación de la solución tomada de acuerdo a la problemática.
 ```JavaScript
 //Aquí codigos clave que requerimos investigar 2
 ```
+
+### Tecloggías empleadas
+
+- API leaflet
+- CSS
+- HTML
+- JavaScript
+
+> API usada al final: [Mapa leaflet](https://leafletjs.com/examples/quick-start/)
