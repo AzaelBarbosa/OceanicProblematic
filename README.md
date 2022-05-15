@@ -3,7 +3,7 @@ Un proyecto para la resolución de una problemática oceánica
 
 | Integrantes | Rol | Link a los Gtihub |
 | ------------- |:-------------:| -----:|
-|`Alexis Aparicio`|FullStack|[Contacto](https://github.com/Alexis96-2)|
+|`Alexis Aparicio`|FullStack - Lider|[Contacto](https://github.com/Alexis96-2)|
 |`Luis Angel Baez`|FullStack|[Contacto](https://github.com/LuisBaezN)|
 |`Diego Rafael Moctezuma`|FullStack|[Contacto](https://github.com/DiegoMoctezuma)|
 |`Juan Pablo Pech`|FullStack|[Contacto](https://github.com/JPabloPQ)|
