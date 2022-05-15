@@ -29,11 +29,12 @@ graph TD;
 ```
 ### Tecnologías a usar
 
+- API
 - CSS
 - JavaScript
 - Html
 
-> API considerada a usar: [Señala con Google Maps](https://www.cursosgis.com/como-crear-geometrias-con-la-api-javascript-de-google-maps/)
+> API usada al final: [Mapa leaflet](https://leafletjs.com/examples/quick-start/)
 
 ### Explicación de la problemática
 
@@ -45,6 +46,8 @@ Aquí va una explicación de la situación.
 
 Aquí va una explicación de la solución tomada de acuerdo a la problemática.
 
+> API considerada a usar desde el principio: [Señala con Google Maps](https://www.cursosgis.com/como-crear-geometrias-con-la-api-javascript-de-google-maps/)
+
 ### Dudas sobre codigos
 
 ```JavaScript
@@ -55,11 +58,3 @@ Aquí va una explicación de la solución tomada de acuerdo a la problemática.
 //Aquí codigos clave que requerimos investigar 2
 ```
 
-### Tecloggías empleadas
-
-- API leaflet
-- CSS
-- HTML
-- JavaScript
-
-> API usada al final: [Mapa leaflet](https://leafletjs.com/examples/quick-start/)
