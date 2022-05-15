@@ -4,10 +4,10 @@ Un proyecto para la resolución de una problemática oceánica
 | Integrantes | Rol | Link a los Gtihub |
 | ------------- |:-------------:| -----:|
 |`Alexis Aparicio`|FullStack - Lider|[Contacto](https://github.com/Alexis96-2)|
-|`Luis Angel Baez`|FullStack|[Contacto](https://github.com/LuisBaezN)|
+|`Luis Angel Baez`|Frontend|[Contacto](https://github.com/LuisBaezN)|
 |`Diego Rafael Moctezuma`|FullStack|[Contacto](https://github.com/DiegoMoctezuma)|
-|`Juan Pablo Pech`|FullStack|[Contacto](https://github.com/JPabloPQ)|
-|`Azael Barbosa`|FullStack|[Contacto](https://github.com/AzaelBarbosa)|
+|`Juan Pablo Pech`|Frontend|[Contacto](https://github.com/JPabloPQ)|
+|`Azael Barbosa`|Backend|[Contacto](https://github.com/AzaelBarbosa)|
 
 ## Pesca Ilegal en Zonas Protegidas
 
@@ -34,7 +34,9 @@ graph TD;
 - JavaScript
 - Html
 
-> API para mapeo: [Mapa leaflet](https://leafletjs.com/examples/quick-start/) <br> Herramientas de servidor: [Azure Tools](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice)
+> API para mapeo: [Mapa leaflet](https://leafletjs.com/examples/quick-start/) <br> Herramientas de servidor: [Azure Tools](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice) <br> Dependencias:
+- npm install jest@26.0.0 --save
+- npm install express --save
 
 ### Herramientas
 
