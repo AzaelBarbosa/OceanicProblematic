@@ -34,7 +34,13 @@ graph TD;
 - JavaScript
 - Html
 
-> API para mapeo: [Mapa leaflet](https://leafletjs.com/examples/quick-start/)
+> API para mapeo: [Mapa leaflet](https://leafletjs.com/examples/quick-start/) <br> Herramientas de servidor: [Azure Tools](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice)
+
+### Herramientas
+
+- Visual Studio Code
+
+> Extensiones: [VSCODE - Azure](https://code.visualstudio.com/docs/azure/extensions)
 
 ### Explicación de la problemática
 
