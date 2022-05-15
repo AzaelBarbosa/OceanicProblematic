@@ -34,7 +34,7 @@ graph TD;
 - JavaScript
 - Html
 
-> API usada al final: [Mapa leaflet](https://leafletjs.com/examples/quick-start/)
+> API para mapeo: [Mapa leaflet](https://leafletjs.com/examples/quick-start/)
 
 ### Explicación de la problemática
 
