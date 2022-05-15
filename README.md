@@ -5,7 +5,6 @@ Un proyecto para la resolución de una problemática oceánica
 | ------------- |:-------------:| -----:|
 |`Alexis Aparicio`|FullStack - Lider|[Contacto](https://github.com/Alexis96-2)|
 |`Luis Angel Baez`|Frontend|[Contacto](https://github.com/LuisBaezN)|
-|`Diego Rafael Moctezuma`|FullStack|[Contacto](https://github.com/DiegoMoctezuma)|
 |`Juan Pablo Pech`|Frontend|[Contacto](https://github.com/JPabloPQ)|
 |`Azael Barbosa`|Backend|[Contacto](https://github.com/AzaelBarbosa)|
 
