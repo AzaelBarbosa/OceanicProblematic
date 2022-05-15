@@ -34,9 +34,9 @@ graph TD;
 - JavaScript
 - Html
 
-> API para mapeo: [Mapa leaflet](https://leafletjs.com/examples/quick-start/) <br> Herramientas de servidor: [Azure Tools](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice) <br> Dependencias:
-- npm install jest@26.0.0 --save
-- npm install express --save
+> API para mapeo: [Mapa leaflet](https://leafletjs.com/examples/quick-start/) <br> Herramientas de servidor: [Azure Tools](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice)
+
+> Dependencias: <br> npm install jest@26.0.0 --save <br> npm install express --save
 
 ### Herramientas
 
