@@ -51,17 +51,35 @@ Desde hace 20 años se empezó a desarrollar un sistema de monitoreo electrónic
 
 ### Solución planteada
 
-Aquí va una explicación de la solución tomada de acuerdo a la problemática.
+Fish Savior es un sistema de monitoreo y respuesta ante la pesca ilegal dentro de MPAs.
+
+Una patrulla consta de:
+- Barco (1)
+- Lanchas (3+)
+- Drones (3+)
+
+Procedimiento:
+- Destino generado aleatoriamente
+- Alcanzado el destino, despliega lanchas
+- Después de alcanzar cierta distancia, despliega dron.
+- Dron busca algun barco y registra si encuentra alguna anomalía.
+- Si se encuentra alguna anomalía, alerta, si no, regresa.
+- Repetir despliege de dron durante cierto límite de tiempo.
+- Cambiar posición de monitoreo al terminar el tiempo en el primer espacio.
+
+#### Alcance
+
+En este proyecto se considera que el uso de drones y transmisión de información de lanchas a barco puede ser un problema, por lo que este pude ser un elemento que se puede escalar, por lo que se tomará a un solo barco como agente de monitoreo, respuesta, registro y análisis.
 
 > API considerada a usar desde el principio: [Señala con Google Maps](https://www.cursosgis.com/como-crear-geometrias-con-la-api-javascript-de-google-maps/)
 
 ### Dudas sobre codigos
 
 ```JavaScript
-//Aquí codigos clave que requerimos investigar 1
+// Aquí codigos clave que requerimos investigar 1
 ```
 
 ```JavaScript
-//Aquí codigos clave que requerimos investigar 2
+// Aquí codigos clave que requerimos investigar 2
 ```
 
