@@ -87,6 +87,24 @@ Todo lo descrito anteriormente corresponde a la etapa de procesamiento de imagen
 
 > API considerada a usar desde el principio: [Señala con Google Maps](https://www.cursosgis.com/como-crear-geometrias-con-la-api-javascript-de-google-maps/)
 
+## Resultados
+
+### Frontend
+
+### Backend
+
+### IA
+
+Usando LVENet filtramos las siguientes 3 imágenes con tamaños variables:
+
+![img 1](assets/2.png)
+![img 2](assets/23.png)
+![img 3](assets/3.png)
+
+Se obtuvieron los siguientes tiempos de procesamiento:
+
+![log](assets/log.png)
+
 ### Dudas sobre codigos
 
 ```JavaScript
