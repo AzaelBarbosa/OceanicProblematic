@@ -40,7 +40,10 @@ graph TD;
 
 Aquí va una explicación de la situación.
 
-> Fuentes: https://thehumaneleague.org/article/fishing-industry
+[Zonas protegidas de México](https://www.profepa.gob.mx/innovaportal/v/1380/1/mx.wap/areas_naturales_protegidas_marinas_y_litorales.html)
+
+
+> Fuentes: <br> https://thehumaneleague.org/article/fishing-industry <br> https://www.profepa.gob.mx/innovaportal/v/1380/1/mx.wap/areas_naturales_protegidas_marinas_y_litorales.html
 
 ### Solución planteada
 
