@@ -4,13 +4,12 @@ background-color: white;
 }
 .header{
     position: fixed;
-    z-index: 1;
-    height: 3rem;
+    height: 5rem;
     left: 0;
     top: 0;
     right: 0;
     padding: 15px 20px;
-    background-color: rgb(27, 27, 27);
+    background-color: black;
     display:flex;
     justify-content: space-between;/* Logra gracias a flex, uno a la izquierda y otro a la derecha*/
     align-items: center;
@@ -18,6 +17,11 @@ background-color: white;
 }
 .logo{
     width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-footer{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,8 +43,7 @@ background-color: white;
     list-style: none;
  }
 .menu ul li{
-    margin:5px;
-    display: inline-block;
+     display: inline-block;
  }
 
 .olaje{
@@ -49,13 +52,19 @@ background-color: white;
     top:0;
     left:20px;
 }
+.olaje-footer{
+    font-size: 3rem;
+    padding-top: 25px;
+    position: absolute;
+    top:0;
+}
 
 .border-logo{
     color:white;
-    text-shadow: -1px -1px 0 rgb(27, 27, 27),
-    1px -1px 0 rgb(27, 27, 27),
-    1px 1px 0 rgb(27, 27, 27),
-    -1px 1px 0 rgb(27, 27, 27);
+    text-shadow: -1px -1px 0 black,
+    1px -1px 0 black,
+    1px 1px 0 black,
+    -1px 1px 0 black;
 }
 .wave-logo{
     color:#09f;
@@ -92,19 +101,31 @@ background-color: white;
 }
 
 main{
-    margin-top: 4rem;
     height: 100%;
-    width: 100%;
-    align-items: center;
-    align-content: center;
+    overflow: auto;
+    padding: 0% 1% 0% 1%;
+    width: 98%;
 }
-.container{
-    width: 90%;
-    padding-top: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#navFooter {
+    font-size: 25px; 
+    text-align: center;
+    margin-top: 20px;
+    
 }
-#map { 
-    height: 480px;
+#navFooter a{
+    text-decoration: none;
+    color: #f4f4f4; 
+}
+footer{
+    position: fixed;
+    height:20rem;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 15px 20px;
+    background-color: black;
+    display:flex;
+    justify-content: space-between;/* Logra gracias a flex, uno a la izquierda y otro a la derecha*/
+    align-items: center;
+    flex-wrap: wrap;
 }
