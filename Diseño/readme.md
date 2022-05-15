@@ -1,2 +1,2 @@
-Imagen a visualiza
+Imagen a visualiza <br>
 <img src="/.">
