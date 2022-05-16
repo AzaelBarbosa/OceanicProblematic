@@ -89,7 +89,7 @@ Todo lo descrito anteriormente corresponde a la etapa de procesamiento de imagen
 
 ## Resultados
 
-La pagina puede visualizarla aquí: [Fish Survivor](https://fishsurvivor.azurewebsites.net/)
+La pagina puede visualizarla aquí: [Fish Survivor](https://fishsavior.azurewebsites.net/)
 
 ### Frontend
 
