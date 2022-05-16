@@ -1,15 +1,16 @@
 body{
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
 }
 .header{
     position: fixed;
-    height: 5rem;
+    z-index: 1;
+    height: 3.2rem;
     left: 0;
     top: 0;
     right: 0;
     padding: 15px 20px;
-    background-color: black;
+    background-color: rgb(27, 27, 27);
     display:flex;
     justify-content: space-between;/* Logra gracias a flex, uno a la izquierda y otro a la derecha*/
     align-items: center;
@@ -22,6 +23,7 @@ background-color: white;
     justify-content: center;
 }
 .logo-footer{
+    padding-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,20 +43,14 @@ background-color: white;
     margin: 0;
     padding: 0;
     list-style: none;
- }
+    }
 .menu ul li{
-     display: inline-block;
- }
+    margin:5px;
+    display: inline-block;
+    }
 
-.olaje{
-    font-size: 3rem;
-    position: absolute;
-    top:0;
-    left:20px;
-}
 .olaje-footer{
     font-size: 3rem;
-    padding-top: 25px;
     position: absolute;
     top:0;
 }
@@ -65,6 +61,22 @@ background-color: white;
     1px -1px 0 black,
     1px 1px 0 black,
     -1px 1px 0 black;
+}
+
+
+.olaje{
+    font-size: 3rem;
+    position: absolute;
+    top:0;
+    left:20px;
+}
+
+.border-logo{
+    color:white;
+    text-shadow: -1px -1px 0 rgb(27, 27, 27),
+    1px -1px 0 rgb(27, 27, 27),
+    1px 1px 0 rgb(27, 27, 27),
+    -1px 1px 0 rgb(27, 27, 27);
 }
 .wave-logo{
     color:#09f;
@@ -102,10 +114,23 @@ background-color: white;
 
 main{
     height: 100%;
-    overflow: auto;
-    padding: 0% 1% 0% 1%;
-    width: 98%;
+    margin:0;
+    padding-top: 3.2rem;
+    padding-bottom: 5rem;
+    width: 100%;
 }
+
+/*.container{
+    width: 90%;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+#map { 
+    height: 480px;
+}
+
 #navFooter {
     font-size: 25px; 
     text-align: center;
@@ -117,8 +142,7 @@ main{
     color: #f4f4f4; 
 }
 footer{
-    position: fixed;
-    height:20rem;
+    height:10rem;
     left: 0;
     bottom: 0;
     right: 0;
