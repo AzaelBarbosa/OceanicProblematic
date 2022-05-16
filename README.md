@@ -89,6 +89,8 @@ Todo lo descrito anteriormente corresponde a la etapa de procesamiento de imagen
 
 ## Resultados
 
+La pagina puede visualizarla aquí: [Fish Survivor](https://jpablopq.github.io/OceanicProblematic/index.html)
+
 ### Frontend
 
 ### Backend
