@@ -1,11 +1,11 @@
 body{
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
 }
 .header{
     position: fixed;
     z-index: 1;
-    height: 3rem;
+    height: 3.2rem;
     left: 0;
     top: 0;
     right: 0;
@@ -18,6 +18,12 @@ background-color: white;
 }
 .logo{
     width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-footer{
+    padding-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,11 +43,26 @@ background-color: white;
     margin: 0;
     padding: 0;
     list-style: none;
- }
+    }
 .menu ul li{
     margin:5px;
     display: inline-block;
- }
+    }
+
+.olaje-footer{
+    font-size: 3rem;
+    position: absolute;
+    top:0;
+}
+
+.border-logo{
+    color:white;
+    text-shadow: -1px -1px 0 black,
+    1px -1px 0 black,
+    1px 1px 0 black,
+    -1px 1px 0 black;
+}
+
 
 .olaje{
     font-size: 3rem;
@@ -92,19 +113,43 @@ background-color: white;
 }
 
 main{
-    margin-top: 4rem;
     height: 100%;
+    margin:0;
+    padding-top: 3.2rem;
+    padding-bottom: 5rem;
     width: 100%;
-    align-items: center;
-    align-content: center;
 }
-.container{
+
+/*.container{
     width: 90%;
     padding-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}*/
 #map { 
     height: 480px;
+}
+
+#navFooter {
+    font-size: 25px; 
+    text-align: center;
+    margin-top: 20px;
+    
+}
+#navFooter a{
+    text-decoration: none;
+    color: #f4f4f4; 
+}
+footer{
+    height:10rem;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 15px 20px;
+    background-color: black;
+    display:flex;
+    justify-content: space-between;/* Logra gracias a flex, uno a la izquierda y otro a la derecha*/
+    align-items: center;
+    flex-wrap: wrap;
 }

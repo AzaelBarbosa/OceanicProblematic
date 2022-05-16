@@ -3,11 +3,10 @@ Un proyecto para la resolución de una problemática oceánica
 
 | Integrantes | Rol | Link a los Gtihub |
 | ------------- |:-------------:| -----:|
-|`Alexis Aparicio`|FullStack|[Contacto](https://github.com/Alexis96-2)|
-|`Luis Angel Baez`|FullStack|[Contacto](https://github.com/LuisBaezN)|
-|`Diego Rafael Moctezuma`|FullStack|[Contacto](https://github.com/DiegoMoctezuma)|
-|`Juan Pablo Pech`|FullStack|[Contacto](https://github.com/JPabloPQ)|
-|`Azael Barbosa`|FullStack|[Contacto](https://github.com/AzaelBarbosa)|
+|`Alexis Aparicio`|FullStack - Lider|[Contacto](https://github.com/Alexis96-2)|
+|`Luis Angel Baez`|Frontend - IA|[Contacto](https://github.com/LuisBaezN)|
+|`Juan Pablo Pech`|Frontend|[Contacto](https://github.com/JPabloPQ)|
+|`Azael Barbosa`|Backend|[Contacto](https://github.com/AzaelBarbosa)|
 
 ## Pesca Ilegal en Zonas Protegidas
 
@@ -27,14 +26,6 @@ graph TD;
     A --> v1/soluciones/SensoresVigilancia;
     A --> v1/soluciones/SensoresBardas;
 ```
-### Tecnologías a usar
-
-- API
-- CSS
-- JavaScript
-- Html
-
-> API para mapeo: [Mapa leaflet](https://leafletjs.com/examples/quick-start/)
 
 ### Explicación de la problemática
 
@@ -55,8 +46,8 @@ Fish Savior es un sistema de monitoreo y respuesta ante la pesca ilegal dentro d
 
 Una patrulla consta de:
 - Barco (1)
-- Lanchas (3+)
-- Drones (3+)
+- Lanchas (3 o más)
+- Drones (3 o más)
 
 Procedimiento:
 - Destino generado aleatoriamente
@@ -69,17 +60,66 @@ Procedimiento:
 
 #### Alcance
 
-En este proyecto se considera que el uso de drones y transmisión de información de lanchas a barco puede ser un problema, por lo que este pude ser un elemento que se puede escalar, por lo que se tomará a un solo barco como agente de monitoreo, respuesta, registro y análisis.
+En este proyecto se considera que el uso de drones y transmisión de información de lanchas a barco puede ser un problema, por lo que este pude ser un elemento que se puede escalar, así que se tomará un solo barco como agente de monitoreo, respuesta, registro y análisis.
+
+El análisis del presupuesto, que incluye gastos operativos y de mantenimiento no se incluye por la falta de un experto en el área que pueda orientarnos de las diversas variables, como combustible, operadores, cuerpo de seguridad, etc.
+
+Aunque ya exiten muchos trabajos enfocados en la detección de barcos con el uso de deep learning, el trabajo realizado por Yu Guo, Yuxu Lu y Ryan Wen Liu en su artículo titulado "Lightweight deep network-enabled real-time low-visibility enhancement for promoting vessel detection in maritime video surveillance" ofrece resultados y procesamiento viables para un sistema como el que se propone en este proyecto, sin embargo, la red neuronal se probó en una tarjeta gráfica NVIDIA RTX 2080Ti dando respuesta de procesamiento y detección de 0.0045 segundos en una imagen de 1920x1080 que, aunque da una respuesta para una aplicación en tiempo real, esta puede ser reemplazada por un sistema embebido, como una Jetson Nano, para reducir costos y, por el protocolo de operación descrito, aunque tenga un tiempo de respuesta menor, no será un obstáculo. Por esto, solo se ha replicado el experimeto usando una GTX 1660 super para visualizar el tiempo de respuesta, los resultados con diferentes imágenes y verificar el tamaño del estado latente. 
+
+Todo lo descrito anteriormente corresponde a la etapa de procesamiento de imagen, queda por implementarlo junto a una red YOLO. Dentro del trabajo de Zhenfeng Shao et al, titulado "SeaShips: A Large-Scale Precisely Annotated Dataset for Ship Detection" se provó la segunda versión de esta red para detectar embarcaciones, sin embaro, ya existe una cuarta vesión de esta red.
 
 > API considerada a usar desde el principio: [Señala con Google Maps](https://www.cursosgis.com/como-crear-geometrias-con-la-api-javascript-de-google-maps/)
+
+### Tecnologías a usar
+
+- API
+- CSS
+- JavaScript
+- Html
+
+> API para mapeo: [Mapa leaflet](https://leafletjs.com/examples/quick-start/) <br> Herramientas de servidor: [Azure Tools](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice)
+
+> Dependencias: <br> npm install jest@26.0.0 --save <br> npm install express --save
+
+### Herramientas
+
+- Visual Studio Code
+
+> Extensiones: [VSCODE - Azure](https://code.visualstudio.com/docs/azure/extensions)
+
+## Resultados
+
+### Frontend
+
+### Backend
+
+### IA
+
+Usando LVENet filtramos las siguientes 3 imágenes con tamaños variables:
+
+![img 1](assets/2.png)
+![img 2](assets/23.png)
+![img 3](assets/3.png)
+
+Se obtuvieron los siguientes tiempos de procesamiento:
+
+![log](assets/log.png)
 
 ### Dudas sobre codigos
 
 ```JavaScript
-// Aquí codigos clave que requerimos investigar 1
+var map = L.map('map').setView([24.28, -102.12], 5);
+
+var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+    maxZoom: 18,
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
+        'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    id: 'mapbox/streets-v11',
+    tileSize: 512,
+    zoomOffset: -1
+}).addTo(map);
 ```
 
-```JavaScript
-// Aquí codigos clave que requerimos investigar 2
-```
+El anterior código funciona para llamar al mapa de la API leaflet, la propiedad `maxZoom` permite la cantidades de zoom establecidas en el mapa, ahora la distancia del mpaa se determina en la variable `map` en su `.setView` el segundo elemento, el cual es 5.
+
 
