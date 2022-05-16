@@ -154,3 +154,35 @@ footer{
     align-items: center;
     flex-wrap: wrap;
 }
+
+/*//////////// dimention, position anb color //////////*/
+
+.dpc_bodya{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 150px;
+}
+
+.dpc_links{
+    position: absolute;
+    top: 900px;
+}
+
+.dpc_text{
+    width: 500px;
+    height: 400px;
+    text-align: justify;
+}
+
+
+.dpc_hackat{
+    position: absolute;
+    top: 400px;
+    background-color: #09f;
+    width: 100%;
+    height: 400px;
+    display: grid;
+    place-items: center;
+}
