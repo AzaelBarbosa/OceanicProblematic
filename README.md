@@ -122,4 +122,9 @@ var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}
 
 El anterior código funciona para llamar al mapa de la API leaflet, la propiedad `maxZoom` permite la cantidades de zoom establecidas en el mapa, ahora la distancia del mpaa se determina en la variable `map` en su `.setView` el segundo elemento, el cual es 5.
 
+### Futuras propuestas
+
+- Realizar una sección de mapa donde se muestren distintos colores y una grafica explique que tipo de zona es.
+- Realizar Cards de barcos registrados que pasaron por la zona.
+
 
